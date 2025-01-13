@@ -6,7 +6,7 @@
 .container{
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/Vincent-Van-Gogh-Self-Portrait-1889.png);
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/van\ gough\ portrait.png);
     background-position: center;
     background-size: cover;
     padding-left: 8%;
@@ -85,19 +85,18 @@ button{
 
 }
 .card1{
-    background-image: url(images/th\ \(2\).png);
+     background-image: url(images/plant\ pot.jfif);
 }
-
 .card2{
-    background-image: url(images/new\ photo.png);
+    background-image: url(images/stary\ night.jfif);
 }
 
 .card3{
-    background-image: url(images/best\ image.png);
+    background-image: url(images/best\ image.jfif);
 }
 
 .card4{
-    background-image: url(images/th.png);
+    background-image: url(images/night\ photo.jfif);
 }
 
 .card:hover{
