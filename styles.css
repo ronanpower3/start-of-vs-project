@@ -85,19 +85,19 @@ button{
 
 }
 .card1{
-    background-image: url(images/th\ \(2\).jfif);
+    background-image: url(images/th\ \(2\).png);
 }
 
 .card2{
-    background-image: url(images/new\ photo.jfif);
+    background-image: url(images/new\ photo.png);
 }
 
 .card3{
-    background-image: url(images/best\ image.jfif);
+    background-image: url(images/best\ image.png);
 }
 
 .card4{
-    background-image: url(images/th.jfif);
+    background-image: url(images/th.png);
 }
 
 .card:hover{
