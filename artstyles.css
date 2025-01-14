@@ -34,3 +34,32 @@
     max-width: 650px; /* Limit the text width */
     margin: 0; /* Remove any default margin */
   }
+  .back-button-container {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .art-link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: 2px solid black;
+    border-radius: 5px;
+    background-color: white;
+    transition: 0.3s;
+  }
+  
+  .art-link:hover {
+    background-color: black;
+    color: white;
+  }
+  
+  .back-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
