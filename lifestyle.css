@@ -1,0 +1,18 @@
+h1{
+    color: brown;
+}
+
+ 
+
+.container {
+    position: fixed;         /* Fixed to the viewport */
+    top: 0;                  /* Ensure it starts from the top of the screen */
+    left: 0;                 /* Ensure it starts from the left of the screen */
+    width: 100%;             /* Full width of the screen */
+    height: 100vh;           /* Full height of the screen */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/van\ gough\ portrait.png);
+    background-position: center;
+    background-size: cover; /* Ensure the background image covers the entire area */
+    box-sizing: border-box;  /* Include padding in width/height calculations */
+    padding-left: 8%;        /* Apply padding-left */
+}

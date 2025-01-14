@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+  }
+  
+  .container {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .slides {
+    width: 100%;
+    height: 100vh;
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Vertically center items */
+    justify-content: flex-start; /* Align items to the left */
+    gap: 50px; /* Space between image and text */
+    color: rgb(0, 0, 0);
+    background-color: rgb(102, 72, 33);
+    padding: 20px; /* Optional: Add some padding around the content */
+  }
+  
+  .slides img {
+    width: 400px; /* Image width */
+    height: auto; /* Maintain aspect ratio */
+    flex-shrink: 0; /* Prevent the image from shrinking */
+  }
+  
+  .slides h2 {
+    font-size: 70px;
+    font-weight: 600;
+    max-width: 650px; /* Limit the text width */
+    margin: 0; /* Remove any default margin */
+  }
